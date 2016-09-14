@@ -1,6 +1,6 @@
 # Site settings
 title: The LaTeX Project
-baseurl: "http://swpark.ddns.net/latex"
+baseurl: "latex"
 url: "http://swpark.ddns.net/latex"
 
 # Build settings
