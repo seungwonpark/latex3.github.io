@@ -7,7 +7,9 @@ description: "An introduction to LaTeX, a document preparation system for high-q
 
 # 경기과학고 텍 사용자협회에 관하여
 
-LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or «Bertolt Brecht»), is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
+이 사이트는 경기과학고 내에서의 텍 사용을 편리하게 하기 위한 목적으로 만들었습니다.
+이 사이트를 통해서 교내 R&E, 졸업논문 등의 텍 양식을 다운받을 수 있으며, 양식 사용 중 발생하는 어려움에 관해 질문할 수 있습니다.
+텍 사용과 관련하여 참고할 수 있는 유용한 자료들은 왼쪽의 링크를 사용하시기 바랍니다.
 
 LaTeX is not a word processor! Instead, LaTeX encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. For example, consider this document: 
 
