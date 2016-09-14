@@ -1,7 +1,7 @@
 # Site settings
 title: The LaTeX Project
 baseurl: ""
-url: "http://swpark.ddns.net"
+url: "http://swpark.ddns.net/latex"
 
 # Build settings
 markdown: kramdown
