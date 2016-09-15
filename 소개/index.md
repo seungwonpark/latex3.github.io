@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 menu: 소개
 title: "GSHS"
