@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 menu: Latex3
 title: "The LaTeX3 Project"
@@ -48,4 +48,3 @@ Until LaTeX3 is delivered, the [project team]({{site.baseurl}}/about/team/) are 
 
 <hr>
 
-<div class="row">{% include google.adsense-B.html %}</div><hr> 
