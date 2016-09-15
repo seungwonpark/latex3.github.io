@@ -8,35 +8,40 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
 <div class="row">
   <div class="col cell1of2">
     <h1>LaTeX[레이텍] – 문서 작성 시스템</h1>
-    <p>LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as <a href="{{ "/lppl/" | prepend: site.baseurl }}">free software</a>.</p>
+    <p>LaTeX은 과학/기술 분야 문서의 제작을 위한 기능들을 포함하는 고급의 문서 작성 시스템입니다. LaTeX은 <a href="{{ "/lppl/" | prepend: site.baseurl }}">프리웨어</a>이며, 과학 분야 문서 작성의 표준으로 인정되고 있습니다.
+    
+    이 사이트는 경기과학고 내에서의 텍 사용을 편리하게 하기 위해 만들었습니다.
+    이 사이트를 통해서 교내 R&E, 졸업논문 등의 양식을 <a href="{{ "/download/" | prepend: site.baseurl }}">다운</a>받을 수 있으며,
+    양식 사용 중 발생하는 어려움에 관해 질문할 수 있습니다.
+    </p>
   </div>
   <div class="col cell1of2 news">
-    <h2>Recent News</h2>
+    <h2>최신 소식</h2>
     <ul class="news-posts">
       {% for post in site.posts offset: 0 limit: 2 %}
       <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    <small><a href="{{ "/news/" | prepend: site.baseurl }}">All News</a> &middot; Subscribe to our <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span>RSS News Feed</a></small>
+    <small><a href="{{ "/news/" | prepend: site.baseurl }}">모두 보기</a></small>
   </div>
 </div>
 <hr>
 <div class="row">
   <div class="col cell1of2">
-    <h2>LaTeX the product</h2>
+    <h2>LaTeX 시작하기</h2>
     <dl>
-      <dt><a href="{{ "/about/" | prepend: site.baseurl }}">Introduction</a></dt>
-      <dd>Short introduction to LaTeX. Learn what LaTeX is, which features it has, and how it works.</dd>
-      <dt><a href="{{ "/get/" | prepend: site.baseurl }}">Getting LaTeX</a></dt>
+      <dt><a href="{{ "/about/" | prepend: site.baseurl }}">개요</a></dt>
+      <dd>LaTeX에 관한 개요입니다. LaTeX과 그의 기능에 대해 알아보세요.</dd>
+      <dt><a href="{{ "/get/" | prepend: site.baseurl }}">LaTeX 설치하기</a></dt>
       <dd>Learn how and where to get LaTeX for Linux, Mac OS X, Windows and Online.</dd>
-      <dt><a href="{{ "/news/latex2e-news/" | prepend: site.baseurl }}">LaTeX2e Release Newsletters</a></dt>
-      <dd>LaTeX2e release newsletters for each release of LaTeX created since 1994.</dd>
-      <dt><a href="{{ "/help/" | prepend: site.baseurl }}">Getting help</a></dt>
+      <dt><a href="http://texstudio.org">LaTeX 에디터 - TeXstudio</a></dt>
+      <dd>TeXstudio는 지구상에서 가장 편리하고 강력한 TeX 문서 편집기입니다.</dd>
+      <dt><a href="{{ "/help/" | prepend: site.baseurl }}">도움받기</a></dt>
       <dd>Help for issues with TeX and LaTeX: Official documentation, books, and links.</dd>
     </dl>
   </div>
   <div class="col cell1of2">
-    <h2>The LaTeX3 Project</h2>
+    <h2>경기과학고 텍 사용자협회</h2>
     <dl>
       <dt><a href="{{ "/latex3/" | prepend: site.baseurl }}">LaTeX3 Project</a></dt>
       <dd>The LaTeX3 project is a long-term research project to develop the next version of the LaTeX typesetting system.</dd>
@@ -49,9 +54,6 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
     </dl>
   </div>
 </div>
-<hr>
-<!--
--->
 <hr>
 <div class="row teaser">
   <section class="col cell1of3">{% include teaser.books.html %}</section>
