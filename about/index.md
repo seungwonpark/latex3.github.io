@@ -1,12 +1,8 @@
 ﻿---
 layout: page
-
 menu: About
-
 title: "Introduction to LaTeX"
-
 description: "An introduction to LaTeX, a document preparation system for high-quality typesetting. About the LaTeX project."
-
 permalink: /about/
 ---
 

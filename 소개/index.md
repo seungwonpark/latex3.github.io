@@ -1,65 +1,63 @@
 ﻿---
 layout: page
 menu: 소개
-title: "협회 소개"
-description: "An introduction to LaTeX, a document preparation system for high-quality typesetting. About the LaTeX project."
+title: "GSHS"
+description: "LaTeX project news. Latest information on LaTeX2e and LaTeX3. Learn about the latest LaTeX books, publications, videos, tutorials, etc."
 permalink: /소개/
 ---
 
-# 경기과학고 텍 사용자협회에 관하여
+# LaTeX News
 
-이 사이트는 경기과학고 내에서의 텍 사용을 편리하게 하기 위한 목적으로 만들었습니다.
-이 사이트를 통해서 교내 R&E, 졸업논문 등의 텍 양식을 다운받을 수 있으며, 양식 사용 중 발생하는 어려움에 관해 질문할 수 있습니다.
-텍 사용과 관련하여 참고할 수 있는 유용한 자료들은 왼쪽의 링크를 사용하시기 바랍니다.
+<hr>
+<div class="row teaser">
+  <section class="col cell1of2">
+    <a href="{{site.baseurl}}/news/latex2e-news/">
+      <h2>LaTeX2e Release Newsletters</h2>
+      <p>LaTeX2e release newsletters for each release of LaTeX created since 1994.</p>
+    </a>
+  </section>
+  <section class="col cell1of2">
+    <a href="{{site.baseurl}}/news/latex3-news/">
+      <h2>LaTeX3 Newsletters</h2>
+      <p> Newsletters covering important topics related to LaTeX3/expl3 development.</p>
+    </a>
+  </section>
+</div>
+<hr>
 
-LaTeX is not a word processor! Instead, LaTeX encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. For example, consider this document: 
+## Latest News
 
+<small>Never miss a post. Subscribe to our <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span>RSS News Feed</a></small>
 
-{% highlight text %}
-Cartesian closed categories and the price of eggs
-Jane Doe
-September 1994
+<ul class="news-posts">
+  {% for post in site.posts offset: 0 limit: 4 %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
 
-Hello world!
-{% endhighlight %}
+## Older News
 
-To produce this in most typesetting or word-processing systems, the author would have to decide what layout to use, so would select (say) 18pt Times Roman for the title, 12pt Times Italic for the name, and so on. This has two results: authors wasting their time with designs; and a lot of badly designed documents!
-
-LaTeX is based on the idea that it is better to leave document design to document designers, and to let authors get on with writing documents. So, in LaTeX you would input this document as:
-
-{% highlight text %}
-\documentclass{article}
-\title{Cartesian closed categories and the price of eggs}
-\author{Jane Doe}
-\date{September 1994}
-\begin{document}
-   \maketitle
-   Hello world!
-\end{document}
-{% endhighlight %}
-
-Or, in English: 
-
-+ This document is an article.
-+ Its title is Cartesian closed categories and the price of eggs.
-+ Its author is Jane Doe.
-+ It was written in September 1994.
-+ The document consists of a title followed by the text Hello world!
-
-## LaTeX Features
-
-+ Typesetting journal articles, technical reports, books, and slide presentations.
-+ Control over large documents containing sectioning, cross-references, tables and figures.
-+ Typesetting of complex mathematical formulas.
-+ Advanced typesetting of mathematics with AMS-LaTeX.
-+ Automatic generation of bibliographies and indexes.
-+ Multi-lingual typesetting.
-+ Inclusion of artwork, and process or spot colour.
-+ Using PostScript or Metafont fonts.
+<ul class="all-news-posts">
+  {% for post in site.posts offset: 4 %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
 
 <hr>
 <div class="row teaser">
   <section class="col cell1of3">{% include teaser.documentation.html %}</section>
-  <section class="col cell1of3">{% include teaser.get.html %}</section>
-  <section class="col cell1of3">{% include teaser.team.html %}</section>
+  <section class="col cell1of3">{% include teaser.books.html %}</section>
+  <section class="col cell1of3">{% include teaser.links.html %}</section>
 </div>
