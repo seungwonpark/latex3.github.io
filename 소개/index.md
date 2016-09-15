@@ -3,6 +3,7 @@ layout: page
 menu: 소개
 title: "협회 소개"
 description: "An introduction to LaTeX, a document preparation system for high-quality typesetting. About the LaTeX project."
+permalink: /소개/
 ---
 
 # 경기과학고 텍 사용자협회에 관하여
