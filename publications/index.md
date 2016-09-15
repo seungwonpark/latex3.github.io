@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 menu: Publications
 title: "Articles published by the LaTeX project"
