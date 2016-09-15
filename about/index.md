@@ -15,6 +15,8 @@ GitHub에서 직접 수정하면 잘 됨.
 
 Notepad++로는 잘 되었으면 좋겠다. 안되는듯 ㅠㅠ
 
+오? Notepad++에서는 복구는 불가능하지만, 맨 위의 대쉬들을 건드리지는 않는다. 굳. 이제 다 복구하고, Notepad++로만 수정해야겠다.
+
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or «Bertolt Brecht»), is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
 
 LaTeX is not a word processor! Instead, LaTeX encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. For example, consider this document: 
