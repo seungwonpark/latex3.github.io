@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 menu: test
 title: "test"
