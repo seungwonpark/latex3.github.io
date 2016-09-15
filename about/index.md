@@ -9,7 +9,11 @@ description: "An introduction to LaTeX, a document preparation system for high-q
 
 Testttttttttttttttttttt
 
-Notepad가 이상한건가
+Notepad가 이상한건가(그렇다)
+
+GitHub에서 직접 수정하면 잘 됨.
+
+Notepad++로는 잘 되었으면 좋겠다. 안되는듯 ㅠㅠ
 
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or «Bertolt Brecht»), is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
 
