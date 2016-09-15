@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 menu: About
 title: "Introduction to LaTeX"
