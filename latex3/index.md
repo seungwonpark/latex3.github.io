@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 menu: Latex3
 title: "The LaTeX3 Project"
