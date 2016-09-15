@@ -23,5 +23,8 @@
           {% if page.url contains '/news/' %}<li class="active">
             {% else %}<li>{% endif %}
             <a href="{{ "/news/" | prepend: site.baseurl }}">News</a></li>
+          {% if page.url contains '/test/' %}<li class="active">
+            {% else %}<li>{% endif %}
+            <a href="{{ "/test/" | prepend: site.baseurl }}">Test</a></li>
         </ul>
       </nav>
