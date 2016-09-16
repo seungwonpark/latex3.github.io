@@ -1,12 +1,14 @@
 ---
 layout: page
 menu: 개요
-title: "Introduction to LaTeX"
-description: "An introduction to LaTeX, a document preparation system for high-quality typesetting. About the LaTeX project."
+title: "LaTeX 개요"
+description: "LaTeX에 관하여"
 permalink: /개요/
 ---
 
-# An introduction to LaTeX
+# LaTeX 개요
+
+LaTeX은 <a href="{{ "/lppl/" | prepend: site.baseurl }}">프리웨어</a>이며, 과학 분야 문서 작성의 표준으로 인정되고 있습니다.
 
 LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or «Bertolt Brecht»), is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
 
