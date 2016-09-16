@@ -33,6 +33,7 @@ Day0, Day1, Day2. (현재 비활성)
     + 5th_jointed_rne_presentation
     + gshs_reading
     + gshs_math_seminar_report
+    
   </div>
   <div class="col cell1of2">
     <h2>예시</h2>
@@ -47,6 +48,7 @@ Day0, Day1, Day2. (현재 비활성)
     + Advanced_Physics_14041
     + Science_In_Narratives_14080
     + sample_document
+    
   </div>
 </div>
 
