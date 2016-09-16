@@ -6,13 +6,9 @@ description: "양식/예시/입문서 코드 및 파일 다운로드"
 permalink: /다운로드/
 ---
 
-# 다운로드
-
 텍 입문서, 양식, 예시 다운로드. 모든 파일은 매시 정각 <a href="https://github.com/gshslatexintro">GitHub</a>에서 업데이트됩니다.
 
-+ 폴더에 포함되어 있는 .gitignore 파일들은 무시하셔도 됩니다.
-
-## 임문서
+## 입문서
 
 Day0, Day1, Day2. (현재 비활성)
 
@@ -75,6 +71,8 @@ Day0, Day1, Day2. (현재 비활성)
   </div>
 </div>
 
+<hr>
+
 ## 텍 관련 파일 형식
 
 + .tex : .cls와 함께, 가장 핵심적인 문서 파일입니다. 이 파일을 조판하면 같은 폴더에 결과물(.pdf)이 생성됩니다.
@@ -87,6 +85,8 @@ Day0, Day1, Day2. (현재 비활성)
 + .bst : BibTeX 사용시 참고문헌의 스타일(APA, ieeetr 등)을 지정하는 파일입니다.
 + .bbl, .blg : 조판 시 생겨나는 BibTeX 관련 보조 파일입니다. 이 보조 파일들은 예외적으로 신경써야 할 수도 있습니다 - BibTeX 사용 중 오류가 지속적으로 발생할 경우 이 보조 파일들을 삭제한 후 다시 조판해 보십시오.
 + 그 외의 보조 파일들 : 앞서 언급했듯 전혀 신경쓸 필요가 없지만, 목록은 <a href="https://github.com/github/gitignore/blob/master/TeX.gitignore">github/gitignore</a>에 있습니다.
+
+<hr>
 
 ## 텍과 관련없는 파일 형식
 
