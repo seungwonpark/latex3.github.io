@@ -1,9 +1,9 @@
 ---
 layout: page
-menu: News
+menu: 소식
 title: "협회 소식"
 description: "협회의 최근 소식을 놓치지 마세요."
-permalink: /news/
+permalink: /소식/
 ---
 
 # 최근 협회 소식
