@@ -32,7 +32,7 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
       <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    <small><a href="{{ "/news/" | prepend: site.baseurl }}">모두 보기</a></small>
+    <small><a href="{{ "/소식/" | prepend: site.baseurl }}">모두 보기</a></small>
   </div>
 </div>
 <hr>
