@@ -24,8 +24,9 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
     이 사이트를 통해서 교내 R&E 보고서 및 졸업논문 양식, 텍 입문서, 에시 코드 등을 <a href="{{ "/다운로드/" | prepend: site.baseurl }}">다운</a>받을 수 있습니다.
     <br>
     <small><a href="{{ "/참여/" | prepend: site.baseurl }}">자세히 알아보기</a></small>
+    <br>
     <hr>
-    <h2>최신 소식</h2>
+    <h2>협회 최근 소식</h2>
     <ul class="news-posts">
       {% for post in site.posts offset: 0 limit: 3 %}
       <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
