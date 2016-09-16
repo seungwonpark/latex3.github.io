@@ -7,16 +7,16 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
 
 <div class="row">
   <div class="col cell1of2">
-    <h1>LaTeX[레이텍] – 문서 작성 시스템</h1>
-    <p>LaTeX은 과학/기술 분야 문서의 제작을 위한 기능들을 포함하는 고급의 문서 작성 시스템입니다. LaTeX은 <a href="{{ "/lppl/" | prepend: site.baseurl }}">프리웨어</a>이며, 과학 분야 문서 작성의 표준으로 인정되고 있습니다.
+    # LaTeX[레이텍] – 문서 작성 시스템
+    LaTeX은 과학/기술 분야 문서의 제작을 위한 기능들을 포함하는 고급의 문서 작성 시스템입니다. LaTeX은 <a href="{{ "/lppl/" | prepend: site.baseurl }}">프리웨어</a>이며, 과학 분야 문서 작성의 표준으로 인정되고 있습니다.
     
     이 사이트는 경기과학고 내에서의 텍 사용을 편리하게 하기 위해 만들었습니다.
     이 사이트를 통해서 교내 R&E, 졸업논문 등의 양식을 <a href="{{ "/download/" | prepend: site.baseurl }}">다운</a>받을 수 있으며,
     양식 사용 중 발생하는 어려움에 관해 질문할 수 있습니다.
-    </p>
+    
   </div>
   <div class="col cell1of2 news">
-    <h2>최신 소식</h2>
+    ## 최신 소식
     <ul class="news-posts">
       {% for post in site.posts offset: 0 limit: 2 %}
       <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -28,7 +28,7 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
 <hr>
 <div class="row">
   <div class="col cell1of2">
-    <h2>LaTeX 시작하기</h2>
+    ## LaTeX 시작하기
     <dl>
       <dt><a href="{{ "/about/" | prepend: site.baseurl }}">개요</a></dt>
       <dd>LaTeX에 관한 개요입니다. LaTeX과 그의 기능에 대해 알아보세요.</dd>
@@ -41,7 +41,7 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
     </dl>
   </div>
   <div class="col cell1of2">
-    <h2>경기과학고 텍 사용자협회</h2>
+    ## 경기과학고 텍 사용자협회
     <dl>
       <dt><a href="{{ "/latex3/" | prepend: site.baseurl }}">LaTeX3 Project</a></dt>
       <dd>The LaTeX3 project is a long-term research project to develop the next version of the LaTeX typesetting system.</dd>

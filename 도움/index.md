@@ -1,9 +1,9 @@
 ---
 layout: page
-menu: Help
+menu: 도움
 title: "TeX and LaTeX Help"
 description: "Help for issues with TeX and LaTeX. Documentation, TeX and LaTeX books, links to TeX and LaTeX forums, communities and question and answer websites."
-permalink: /help/
+permalink: /도움/
 ---
 
 # Help

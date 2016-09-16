@@ -12,9 +12,9 @@ permalink: /참여/
 새로운 사용자들을 위한 텍 입문서는 물론, 텍이 어떻게 활용되는지 구체적으로 보여주는 예시 코드 및 결과물들을 제공하고 있습니다.
 또한, 교내 R&E 보고서 및 졸업논문, 휴먼테크논문대상 논문 양식 등을 제공하고 있습니다.
 
-이 모든 자료 및 양식들은 누구나 직접 협회의 GitHub Organization을 통해서 수정할 수 있습니다.
+이 모든 자료 및 양식들은 누구나 직접 협회의 GitHub을 통해서 수정할 수 있습니다.
 자료 또는 양식에 문제가 있을 경우, issues 를 통해 제보해 주시거나 fork해서 Pull Request해 주십시오.
-그 외에도, 협회의 GitHub Organization에 동참하는 것을 적극 고려해 주십시오.
+그 외에도, 협회의 GitHub에 동참하는 것을 적극 고려해 주십시오.
 
 <div class="row">
   <div class="col cell1of2">
@@ -42,7 +42,7 @@ permalink: /참여/
     <h2>협회에 참여하기</h2>
     <p>
     텍 사용에 관심이 있는 경기과학고 구성원(재학생, 교직원, 졸업생)이라면,
-    본 협회의 <a href="https://github.com/gshslatexintro">GitHub Organization</a>에 동참하는 것을 적극 고려해 주십시오.
+    본 협회의 <a href="https://github.com/gshslatexintro">GitHub</a>에 동참하는 것을 적극 고려해 주십시오.
     <br>
     <b>참여 문의</b> : <a href="https://github.com/seungwonpark">현 회장(32기 박승원)</a>
     </p>
