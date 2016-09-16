@@ -44,12 +44,14 @@ Day0, Day1, Day2. (현재 비활성)
     <dd> 2016.1학기 독서 과목 독후감 양식. </dd>
     <dt> gshs_math_seminar_report </dt>
     <dd> 2016.1학기 수학세미나I 보고서 양식. </dd>
+    </dl>
     
   </div>
   <div class="col cell1of2">
     <h2>예시</h2>
     에시 전체 다운로드
     
+    <dl>
     <dt> Manany_Harmony_Project </dt>
     <dd> 작곡작사동아리 매나니 화성학 강의. </dd>
     <dt> 2016_GSHS_Linear_Algebra_midterm </dt>
@@ -68,6 +70,7 @@ Day0, Day1, Day2. (현재 비활성)
     <dd> Science in Narratives 발표자료. </dd>
     <dt> sample_document </dt>
     <dd> 단순 샘플 문서. </dd>
+    </dl>
     
   </div>
 </div>
