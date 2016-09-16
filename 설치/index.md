@@ -20,10 +20,10 @@ permalink: /설치/
   <div class="col cell1of2">
     <h2>TeXstudio 설치</h2>
     
-    http://texstudio.org
-    
+    <a href="http://texstudio.org">http://texstudio.org</a> 
+    <br>
     TeXstudio는 지구상에서 가장 효율적인 텍 문서 편집기입니다.
-    LaTeX 엔진 설치시 TeXworks(Windows) 또는 TeXshop(Mac OS) 가 기본으로 제공되지만, TeXstudio를 강력히 권장합니다.
+    LaTeX 엔진 설치시 TeXworks 또는 TeXshop이 기본으로 제공되지만, TeXstudio를 강력히 권장합니다.
   </div>
 </div>
   

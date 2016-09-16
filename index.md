@@ -7,10 +7,10 @@ description: "LaTeX is a high-quality typesetting system; it includes features d
 
 <div class="row">
   <div class="col cell1of2">
-    <h1>LaTeX[레이텍] – 문서 작성 시스템</h1>
+    <h1>LaTeX[레이텍] – 문서 조판 시스템</h1>
     <dl>
       <dt><a href="{{ "/개요/" | prepend: site.baseurl }}">개요</a></dt>
-      <dd>LaTeX은 과학/기술 분야 문서의 제작을 위한 기능들을 포함하는 표준적인 고급 문서 작성 시스템입니다.</dd>
+      <dd>LaTeX은 과학/기술 분야 문서의 제작을 위한 기능들을 포함하는 표준적인 고급 문서 조판 시스템입니다.</dd>
       <dt><a href="{{ "/설치/" | prepend: site.baseurl }}">LaTeX 설치하기</a></dt>
       <dd>Learn how and where to get LaTeX for Linux, Mac OS X, Windows and Online.</dd>
       <dt><a href="http://texstudio.org">LaTeX 에디터 - TeXstudio</a></dt>
