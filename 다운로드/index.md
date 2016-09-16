@@ -45,7 +45,7 @@ Day0, Day1, Day2. (현재 비활성)
   </div>
   <div class="col cell1of2">
     <h2>예시</h2>
-    에시 전체 다운로드
+    예시 전체 다운로드
     
     <dl>
     <dt> Manany_Harmony_Project </dt>
