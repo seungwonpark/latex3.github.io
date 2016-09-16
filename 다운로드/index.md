@@ -23,31 +23,51 @@ Day0, Day1, Day2. (현재 비활성)
     <h2>양식</h2>
     양식 전체 다운로드(현재 비활성)
     
-    + gshs_report
-    + gshs_thesis
-    + gshs_thesis-adv
-    + gshs_beamer
-    + gshs_chem_experiment
-    + Humantech_Paper_Award
-    + gshs_imaginarylab
-    + 5th_jointed_rne_presentation
-    + gshs_reading
-    + gshs_math_seminar_report
+    <dl>
+    <dt> gshs_report </dt>
+    <dd> R&E 보고서 양식. </dd>
+    <dt> gshs_thesis </dt>
+    <dd> 졸업논문 양식. </dd>
+    <dt> gshs_thesis-adv </dt>
+    <dd> 졸업논문 양식 - BibTeX, XeLaTeX 사용. </dd>
+    <dt> gshs_beamer </dt>
+    <dd> 다용도 Beamer 템플릿. </dd>
+    <dt> gshs_chem_experiment </dt>
+    <dd> 일반화학실험 보고서 도움말 및 양식. </dd>
+    <dt> Humantech_Paper_Award </dt>
+    <dd> 제 22회 기준 - 휴먼테크논문대상 초록/논문 양식. </dd>
+    <dt> gshs_imaginarylab </dt>
+    <dd> 무한상상캠프 작품제작설명서 양식. </dd>
+    <dt> 5th_jointed_rne_presentation </dt>
+    <dd> 제 5회 기준 - 우수 R&E 공동발표회 보고서 양식. </dd>
+    <dt> gshs_reading </dt>
+    <dd> 2016.1학기 독서 과목 독후감 양식. </dd>
+    <dt> gshs_math_seminar_report </dt>
+    <dd> 2016.1학기 수학세미나I 보고서 양식. </dd>
     
   </div>
   <div class="col cell1of2">
     <h2>예시</h2>
     에시 전체 다운로드
     
-    + Manany_Harmony_Project
-    + 2016_GSHS_Linear_Algebra_midterm
-    + Korean_and_Life_14041
-    + 2015_Science_Research_Writing
-    + Calculus_Prob_14041
-    + Discrete_Data_Prob_14080
-    + Advanced_Physics_14041
-    + Science_In_Narratives_14080
-    + sample_document
+    <dt> Manany_Harmony_Project </dt>
+    <dd> 작곡작사동아리 매나니 화성학 강의. </dd>
+    <dt> 2016_GSHS_Linear_Algebra_midterm </dt>
+    <dd> 선형대수학 시험범위 정리. </dd>
+    <dt> Korean_and_Life_14041 </dt>
+    <dd> 국어와생활 시험범위 정리. </dd>
+    <dt> 2015_Science_Research_Writing </dt>
+    <dd> 영어논문작성법 시험범위 정리. </dd>
+    <dt> Calculus_Prob_14041 </dt>
+    <dd> 미적분학I 레포트. </dd>
+    <dt> Discrete_Data_Prob_14080 </dt>
+    <dd> 이산구조 과제. </dd>
+    <dt> Advanced_Physics_14041 </dt>
+    <dd> 고급물리학I 레포트. </dd>
+    <dt> Science_In_Narratives_14080 </dt>
+    <dd> Science in Narratives 발표자료. </dd>
+    <dt> sample_document </dt>
+    <dd> 단순 샘플 문서. </dd>
     
   </div>
 </div>
