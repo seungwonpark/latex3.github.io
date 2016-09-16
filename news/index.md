@@ -1,31 +1,12 @@
 ---
 layout: page
 menu: News
-title: "LaTeX News"
-description: "LaTeX project news. Latest information on LaTeX2e and LaTeX3. Learn about the latest LaTeX books, publications, videos, tutorials, etc."
+title: "협회 소식"
+description: "협회의 최근 소식을 놓치지 마세요."
 permalink: /news/
 ---
 
-# LaTeX News
-
-<hr>
-<div class="row teaser">
-  <section class="col cell1of2">
-    <a href="{{site.baseurl}}/news/latex2e-news/">
-      <h2>LaTeX2e Release Newsletters</h2>
-      <p>LaTeX2e release newsletters for each release of LaTeX created since 1994.</p>
-    </a>
-  </section>
-  <section class="col cell1of2">
-    <a href="{{site.baseurl}}/news/latex3-news/">
-      <h2>LaTeX3 Newsletters</h2>
-      <p> Newsletters covering important topics related to LaTeX3/expl3 development.</p>
-    </a>
-  </section>
-</div>
-<hr>
-
-## Latest News
+# 최근 협회 소식
 
 <small>Never miss a post. Subscribe to our <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span>RSS News Feed</a></small>
 
@@ -41,7 +22,7 @@ permalink: /news/
   {% endfor %}
 </ul>
 
-## Older News
+## 지난 협회 소식
 
 <ul class="all-news-posts">
   {% for post in site.posts offset: 4 %}
