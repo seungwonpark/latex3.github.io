@@ -6,18 +6,19 @@ description: "양식/예시/입문서 코드 및 파일 다운로드"
 permalink: /다운로드/
 ---
 
-텍 입문서, 양식, 예시 다운로드. 모든 파일은 매시 정각 <a href="https://github.com/gshslatexintro">GitHub</a>에서 업데이트됩니다.
+아래는 자료의 목록입니다. 모든 파일은 매시 정각 <a href="https://github.com/gshslatexintro">GitHub</a>에서 업데이트됩니다.
+
+<a href="{{ "/download.php" | prepend: site.baseurl }}">다운로드 페이지 링크</a>
 
 ## 입문서
 
-Day0, Day1, Day2. (현재 비활성)
+Day0, Day1, Day2.
 
 <hr>
 
 <div class="row">
   <div class="col cell1of2">
     <h2>양식</h2>
-    양식 전체 다운로드(현재 비활성)
     
     <dl>
     <dt> gshs_report </dt>
