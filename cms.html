@@ -27,21 +27,25 @@
 	{% endif %}
 	<div id="messages"></div>
 	<form id="theform" method="get">
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="글 제목(간결히)" id="p_title" name="title">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="관련 양식명(예 : gshs_thesis / 생략 가능)" id="p_meta" name="meta">
-		</div>
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="글 제목(간결히)" id="p_title" name="title">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
+            </div>
+        </div>
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="관련 양식명(예 : gshs_thesis / 생략 가능)" id="p_meta" name="meta">
+            </div>
+        </div>
 		<div class="form-group">
 			<textarea class="form-control" rows="3" id="p_excerpt" placeholder="표제" name="excerpt"></textarea>
 		</div>
