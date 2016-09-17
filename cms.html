@@ -16,7 +16,7 @@
 
 <body>
 	<div class="container" id="container1" >
-	<h5>경기과학고 텍 사용자협회 소식 게시판에 글 작성하기</h5>
+	<h5>경기과학고 텍 사용자협회 소식 게시판에 글 작성하기 / <a href="http://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/">마크다운 문법 도움말</a></h5>
 	{% if site.github.repo == none %}
 		<div class="alert alert-danger" role="alert"><code>github.repo</code> is not set. Check <a href="https://github.com/vrypan/jekyll-post-via-web"
 		>github.com/vrypan/jekyll-post-via-web</a> for instructions.</div>
@@ -34,7 +34,7 @@
 			<input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
 		</div>
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
+			<input type="text" class="form-control" placeholder="저자(예 : 32기 홍길동 / 수학 교직원 홍판서)" id="p_author" name="author">
 		</div>
 		<div class="form-group">
 			<input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
@@ -46,7 +46,7 @@
 			<textarea class="form-control" rows="3" id="p_excerpt" placeholder="표제" name="excerpt"></textarea>
 		</div>
 		<div class="form-group">
-			<textarea class="form-control" rows="8" id="p_body" placeholder="Type your post here." name="body"></textarea>
+			<textarea class="form-control" rows="8" id="p_body" placeholder="글 내용 작성. 마크다운, HTML 문법 사용 가능." name="body"></textarea>
 		</div>
 		<div class="form-inline">
 			<div class="form-group">
