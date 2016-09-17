@@ -6,7 +6,7 @@ description: "References to the official LaTeX documentation and to documentatio
 
 # Documentation
 
-This page contains references to documentation by the [LaTeX team]({{site.baseurl}}/about/team/). To find documentation that is available elsewhere on the net, vitsit the [links page]({{site.baseurl}}/help/links/). Also, there's a whole page dedicated to [books on LaTeX and related topics]({{site.baseurl}}/help/books/).
+This page contains references to documentation by the [LaTeX team]({{site.baseurl}}/소개/). To find documentation that is available elsewhere on the net, vitsit the [links page]({{site.baseurl}}/도움/links/). Also, there's a whole page dedicated to [books on LaTeX and related topics]({{site.baseurl}}/도움/books/).
 
 If you know about a list of TeX and related documentation not listed here, please [contact us]({{site.baseurl}}/contact/).
 

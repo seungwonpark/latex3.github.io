@@ -24,7 +24,7 @@ permalink: /도움/
 
 # Help
 
-There are a number of places where you can find help for issues with TeX and LaTeX. There is the **[documentation]({{site.baseurl}}/help/documentation/)**  distributed with LaTeX, several **[books]({{site.baseurl}}/help/books/)**, and **[links]({{site.baseurl}}/help/links/)**. The LaTeX Project does not have enough resources available to field questions directly.
+There are a number of places where you can find help for issues with TeX and LaTeX. There is the **[documentation]({{site.baseurl}}/도움/documentation/)**  distributed with LaTeX, several **[books]({{site.baseurl}}/도움/books/)**, and **[links]({{site.baseurl}}/도움/links/)**. The LaTeX Project does not have enough resources available to field questions directly.
 
 <hr>
 <div class="row teaser">
