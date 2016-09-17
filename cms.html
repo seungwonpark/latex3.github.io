@@ -28,7 +28,22 @@
 	<div id="messages"></div>
 	<form id="theform" method="get">
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Post Title" id="p_title" name="title">
+			<input type="text" class="form-control" placeholder="글 제목(간결히)" id="p_title" name="title">
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="관련 양식명(예 : gshs_thesis / 생략 가능)" id="p_meta" name="meta">
+		</div>
+		<div class="form-group">
+			<textarea class="form-control" rows="3" id="p_excerpt" placeholder="표제" name="excerpt"></textarea>
 		</div>
 		<div class="form-group">
 			<textarea class="form-control" rows="10" id="p_body" placeholder="Type your post here." name="body"></textarea>
@@ -117,25 +132,34 @@
 	var API_NEW_POST = 'https://api.github.com/repos/{{ site.github.repo }}/contents/_posts/' ;
 
 	$("#go").click(function() {
-		var user = $('#username').val() ;
-		var password = $('#password').val() ;
-		var title = $('#p_title').val() ;
-
+		var user = $('#username').val();
+		var password = $('#password').val();
+		var title = $('#p_title').val();
+		var title_detail = $('#p_title_detail').val();
+        var author = $('#p_author').val();
+        var description = $('#p_description').val();
+        var excerpt = $('#p_excerpt').val();
+        var meta = $('#p_meta').val();
+        var body = $('#p_body').val();
+        
 		var p_body = '---\n' ;
 		p_body = p_body + 'layout: post \n' ;
 		p_body = p_body + 'title:  "' + title +'" \n';
-		p_body = p_body + 'date:   '+ post_date() +' \n' ;
-		/* Setting the category here is not the most elegant way...
-		p_body = p_body + 'categories: tests \n';
-		*/
-		p_body = p_body + '---\n';
-		p_body = p_body + '\n' + $('#p_body').val();
+		p_body = p_body + 'date:  '+ post_date() +' \n' ;
+        p_body = p_body + 'author:  "' + author +'" \n';
+        p_body = p_body + 'description:  ' + description +'" \n';
+        p_body = p_body + 'excerpt:  ' + excerpt +'" \n';
+		p_body = p_body + 'categories: 소식 \n';
+        p_body = p_body + 'meta:  ' + meta +'" \n';
+		p_body = p_body + '---\n\n';
+		p_body = p_body + ' # ' + title_detail;
+		p_body = p_body + '\n\n' + body;
 
 		var posted_ok = false;
 		$.ajax({
 			dataType: "json",
 			contentType: 'application/json; charset=UTF-8',
-			url: API_NEW_POST+post_file(title)+'.markdown',
+			url: API_NEW_POST+post_file(title)+'.md',
 			type: "PUT",
 			data: JSON.stringify({
 				content: btoa(unescape(encodeURIComponent(p_body))),
