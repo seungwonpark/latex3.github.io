@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "무한상상캠프 문서화"
+title: "제 23회 휴먼테크논문대회 양식"
 date: 2016-09-16 23:00:00
 author: 32기 박승원
 description: "제 23회 휴먼테크논문대회 양식"
