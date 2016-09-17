@@ -27,23 +27,27 @@
 	{% endif %}
 	<div id="messages"></div>
 	<form id="theform" method="get">
-        <div class="form-inline">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="글 제목(간결히)" id="p_title" name="title">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" placeholder="글 제목(간결히)" id="p_title" name="title">
+                </div>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" placeholder="글 제목(자세히)" id="p_title_detail" name="title_detail">
+                </div>
             </div>
         </div>
-        <div class="form-inline">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="관련 양식명(예 : gshs_thesis / 생략 가능)" id="p_meta" name="meta">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" placeholder="저자" id="p_author" name="author">
+                </div>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" placeholder="간단한 설명(웹사이트에는 드러나지 않음, 생략 가능)" id="p_description" name="description">
+                </div>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" placeholder="관련 양식명(예 : gshs_thesis / 생략 가능)" id="p_meta" name="meta">
+                </div>
             </div>
         </div>
 		<div class="form-group">
@@ -64,9 +68,7 @@
 			<input type="button" class="btn btn-default" id="go" value="등록" />
             <br>
             <h5>글을 작성하려면 경기과학고 텍 사용자협회의 <a href="https://github.com/gshslatexintro">GitHub</a>에 가입되어 있어야 합니다.</h5>
-            <br>
-            <h5>등록한 글은 즉시 <a href="https://github.com/gshslatexintro/latex.gs.hs.kr">웹사이트의 GitHub 저장소</a>에 추가되며, 10분 주기로 업데이트되며, 수정을 원할 경우 <a href="https://github.com/gshslatexintro/latex.gs.hs.kr">웹사이트의 GitHub 저장소</a>에서 해 주십시오.</h5>
-            <br>
+            <h5>등록한 글은 즉시 <a href="https://github.com/gshslatexintro/latex.gs.hs.kr">웹사이트의 GitHub 저장소</a>에 추가되며, 수정을 원할 경우 <a href="https://github.com/gshslatexintro/latex.gs.hs.kr">웹사이트의 GitHub 저장소</a>에서 해 주십시오.</h5>
             <h5>웹사이트의 GitHub 저장소에 추가된 글은 10분 주기로 갱신됩니다.</h5>
             <br>
             <h5>ⓒ 2016 <a href="https://www.vrypan.net/">Panayotis Vryonis</a> under Apache-2.0 License</h5>
