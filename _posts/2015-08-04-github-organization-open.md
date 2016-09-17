@@ -6,7 +6,7 @@ author: 32기 박승원
 description: "github.com/gshslatexintro가 개설되었다."
 excerpt: "교내 텍 사용자 수를 늘리기 위한 목적으로,
 32기 박승원에 의해 github.com/gshslatexintro가 개설되었다."
-categories: news
+categories: 소식
 tags: [github, open]
 ---
 

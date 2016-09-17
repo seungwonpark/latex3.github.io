@@ -6,7 +6,7 @@ author: 32기 박승원
 description: "신규 - 무한상상캠프 제작과정 문서 양식"
 excerpt: "무한상상캠프의 작품 제작과정을 instructables처럼 설명하는 문서를
 LaTeX으로 간편하게 제작할 수 있도록 하였다."
-categories: news
+categories: 소식
 tags: [new, imaginary, section]
 meta: "gshs_imaginary"
 ---

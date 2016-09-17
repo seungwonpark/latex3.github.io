@@ -6,7 +6,7 @@ author: 32기 박승원
 description: "제 23회 휴먼테크논문대회 양식"
 excerpt: "기존의 제 22회 기준 휴먼테크논문대회 양식을 바탕으로,
 제 23회 기준 양식이 완성되었습니다."
-categories: news
+categories: 소식
 tags: [humantech, thesis]
 meta: "Humantech_Paper_Award"
 ---

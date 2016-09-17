@@ -6,7 +6,7 @@ author: 32기 박승원
 description: "페이스북 페이지가 개설되었다."
 excerpt: "경기과학고 텍 사용자협회의 페이스북
 페이지가 개설되었다."
-categories: news
+categories: 소식
 tags: [facebook, open]
 ---
 
