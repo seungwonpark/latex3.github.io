@@ -7,7 +7,8 @@ permalink: /소식/
 ---
 
 # 최근 협회 소식
-
+<small> <a href="{{ "/cms/" | prepend: site.baseurl }}">글 작성하기</a> </small>
+<br>
 <ul class="news-posts">
   {% for post in site.posts offset: 0 limit: 4 %}
   <li>
