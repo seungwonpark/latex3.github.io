@@ -8,8 +8,6 @@ permalink: /소식/
 
 # 최근 협회 소식
 
-<small>Never miss a post. Subscribe to our <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span>RSS News Feed</a></small>
-
 <ul class="news-posts">
   {% for post in site.posts offset: 0 limit: 4 %}
   <li>
