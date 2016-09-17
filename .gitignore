@@ -9,3 +9,6 @@ robots.txt
 *.swp
 *.swo
 *.vim
+
+# Files
+files/
