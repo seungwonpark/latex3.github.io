@@ -1,7 +1,7 @@
 # Site settings
-title: The LaTeX Project
-baseurl: "http://swpark.ddns.net/latex"
-url: "http://swpark.ddns.net/latex"
+title: latex.gs.hs.kr
+baseurl: "http://latex.gs.hs.kr"
+url: "http://latex.gs.hs.kr"
 
 # Build settings
 markdown: kramdown
@@ -15,7 +15,7 @@ markdown: kramdown
 permalink: pretty
 
 # Destination
-destination: /var/www/html/latex
+destination: /var/www/html
 
 # GitHub:
 github:
