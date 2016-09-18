@@ -11,4 +11,7 @@ robots.txt
 *.vim
 
 # Files
-files/
+files/*
+
+# Update info file
+updated.txt
